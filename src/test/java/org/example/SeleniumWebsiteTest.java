@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.Assert.assertEquals;
 
-public class Test {
+public class SeleniumWebsiteTest {
 
     @org.junit.Test
     public  void  test_selenium_dot_div_blog()
