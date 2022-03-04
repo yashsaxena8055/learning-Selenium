@@ -47,8 +47,8 @@ public class SeleniumWebsiteTest {
         WebElement link2016 = driver.findElement(By.id("m-blog2017"));
         link2016.click();
 
-        WebElement element = driver.findElement(By.linkText("Fall Selenium Conf, Save the Date & Call for Speakers!"));
-        assertEquals("Fall Selenium Conf, Save the Date & Call for Speakers!", element.getText());
+        WebElement element = driver.findElement(By.linkText("Hacking with IntelliJ"));
+        assertEquals("Hacking with IntelliJ", element.getText());
 
         String title = driver.getTitle();
         assertEquals("Blog Posts - 2017 | Selenium", title);
